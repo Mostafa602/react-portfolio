@@ -2,6 +2,8 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
+import project6 from "../assets/projects/project-6.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -48,19 +50,26 @@ export const PROJECTS = [
   },
   {
     title: "EndCreativeStudio Website",
-    image: project1,
+    image: project2,
     description:
       "Developed and launched EndCreativeStudio, a marketing services website designed to help businesses enhance their online presence. The platform provides digital marketing solutions, branding strategies, and creative content development to drive customer engagement and business growth.",
     technologies: ["HTML", "CSS", "JavaScript", "Webflow"],
   },
-  
   {
     title: "Multithreaded Parking System",
-    image: project2,
+    image: project5,
     description:
       "Designed and implemented a Java-based parking system that uses multithreading to simulate parking lot operations .",
     technologies: ["Java"],
   },
+  {
+    title: "Java-based Command Line Interpreter",
+    image: project6,
+    description:
+      "A basic Command Line Interpreter (CLI) that mimics the functionality of a Unix/Linux shell. The CLI supports a variety of system commands as well as internal commands to enhance user interaction.",
+    technologies: ["Operating Systems","Java","Junit"],
+  },
+ 
 ];
 
 export const CONTACT = {
