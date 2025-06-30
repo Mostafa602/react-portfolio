@@ -8,6 +8,9 @@
   font-family: "Inter", sans-serif;
 }
 
+*{
+  box-sizing: border-box;
+}
 
 .fancy-text {
   -webkit-text-stroke: 1px rgba(183, 183, 225, 0.5);
