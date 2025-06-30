@@ -61,7 +61,7 @@ export default function Hero() {
                         animate={{x: 0, opacity: 1}}
                         transition={{duration: 1, delay: 1.2}}
                         src={profilePic} 
-                        className="w-full max-w-[175px] rounded-2xl md:w-1/2" 
+                        className="w-[200px] rounded-2xl md:w-1/2" 
                         alt="name" 
                         />
                     </div>
