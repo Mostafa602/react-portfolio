@@ -13,12 +13,12 @@ export default function Background() {
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 -z-10 h-full w-full overflow-hidden" style={{ background: 'linear-gradient(to bottom ,rgb(0, 25, 94),rgb(0, 0, 0))' }}>
+    <div className="fixed top-0 left-0 -z-10 h-screen w-screen overflow-hidden" style={{ background: 'linear-gradient(to bottom, rgb(0, 25, 94), rgb(0, 0, 0))' }}>
       <div
-        className="pointer-events-none absolute rounded-full bg-blue-600 opacity-10 blur-3xl "
+        className="pointer-events-none absolute rounded-full bg-blue-600 opacity-10 blur-3xl"
         style={{
-          top: position.y - 100,
-          left: position.x - 100,
+          top: Math.max(position.y - 100, 0),
+          left: Math.max(position.x - 100, 0),
           width: 200,
           height: 200,
         }}
