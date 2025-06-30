@@ -24,7 +24,7 @@ export default function Experience() {
                         transition={{duration: 1}}
                         className="w-full max-w-xl lg:w-3/4">
                             <h6 className="mb-2 font-semibold">
-                                {e.role} - <span className="text-sm text-indigo-600">{e.company}</span>
+                                {e.role} - <span className="text-sm text-blue-600">{e.company}</span>
                             </h6>
                             <p className="mb-4 text-neutral-400">{e.description}</p>
                             {e.roles.map((MyRoles) => (

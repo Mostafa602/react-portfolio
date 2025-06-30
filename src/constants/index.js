@@ -11,7 +11,7 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: " 08/2024 – 09/2024",
+    year: " 08/2024 – 08/2024",
     role: " IT infrastructure internship",
     company: "Income-IGI Group",
     description: `During my internship at Income, I gained hands-on experience in maintaining and 

@@ -45,82 +45,82 @@ export default function Technologies() {
                         variants={iconVariants(2.5)}
                         initial="initial"
                         animate="animate"
-                        className="rounded-2xl border-4 border-neutral-800 p-3">
+                        className="rounded-2xl border-4 border-neutral-800 p-3 hover:border-blue-600">
                             <RiReactjsLine className="text-4xl text-cyan-400" />
                         </motion.div>
                         <motion.div 
                         variants={iconVariants(3)}
                         initial="initial"
                         animate="animate"
-                        className="rounded-2xl border-4 border-neutral-800 p-3">
+                        className="rounded-2xl border-4 border-neutral-800 p-3 hover:border-blue-600">
                             <FaLaravel className="text-4xl text-red-600" />
                         </motion.div>
                         <motion.div
                         variants={iconVariants(4)}
                         initial="initial"
                         animate="animate" 
-                        className="rounded-2xl border-4 border-neutral-800 p-3">
+                        className="rounded-2xl border-4 border-neutral-800 p-3 hover:border-blue-600">
                             <SiSpringboot className="text-4xl text-green-500" />
                         </motion.div>
                         <motion.div
                         variants={iconVariants(3.5)}
                         initial="initial"
                         animate="animate" 
-                        className="rounded-2xl border-4 border-neutral-800 p-3">
+                        className="rounded-2xl border-4 border-neutral-800 p-3 hover:border-blue-600">
                             <DiDjango className="text-4xl text-white" />
                         </motion.div>
                         <motion.div
                         variants={iconVariants(4)}
                         initial="initial"
                         animate="animate" 
-                        className="rounded-2xl border-4 border-neutral-800 p-3">
+                        className="rounded-2xl border-4 border-neutral-800 p-3 hover:border-blue-600">
                             <SiMariadb className="text-4xl text-green-600" />
                         </motion.div>
                         <motion.div
                         variants={iconVariants(2.5)}
                         initial="initial"
                         animate="animate" 
-                        className="rounded-2xl border-4 border-neutral-800 p-3">
+                        className="rounded-2xl border-4 border-neutral-800 p-3 hover:border-blue-600">
                             <SiMongodb className="text-4xl text-green-500" />
                         </motion.div>
                     </div>
                 </div>
                 <div className="lg:w-1/2">
                     <h3 className="text-center pb-5 text-2xl italic pt-5 md:pt-0">Programming Languages</h3>
-                    <div className="flex flex-wrap items-center justify-center gap-4 p-1">
+                    <div className="flex flex-wrap items-center justify-center gap-4 p-1 hover:border-blue-600">
                         <motion.div
                         variants={iconVariants(2.5)}
                         initial="initial"
                         animate="animate" 
-                        className="rounded-2xl border-4 border-neutral-800 p-3">
+                        className="rounded-2xl border-4 border-neutral-800 p-3 hover:border-blue-600">
                             <FaJava className="text-4xl text-red-600" />
                         </motion.div>
                         <motion.div
                         variants={iconVariants(3)}
                         initial="initial"
                         animate="animate" 
-                        className="rounded-2xl border-4 border-neutral-800 p-3">
+                        className="rounded-2xl border-4 border-neutral-800 p-3 hover:border-blue-600">
                             <TbBrandCpp className="text-4xl text-blue-500" />
                         </motion.div>
                         <motion.div
                         variants={iconVariants(4)}
                         initial="initial"
                         animate="animate" 
-                        className="rounded-2xl border-4 border-neutral-800 p-3">
-                            <FaPython className="text-4xl text-yellow-300" />
+                        className="rounded-2xl border-4 border-neutral-800 p-3 hover:border-blue-600 ">
+                            <FaPython className="text-4xl text-yellow-300 " />
                         </motion.div>
                         <motion.div
                         variants={iconVariants(3.5)}
                         initial="initial"
                         animate="animate" 
-                        className="rounded-2xl border-4 border-neutral-800 p-3">
+                        className="rounded-2xl border-4 border-neutral-800 p-3 hover:border-blue-600">
                             <FaPhp className="text-4xl text-blue-300" />
                         </motion.div>
                         <motion.div
                         variants={iconVariants(2)}
                         initial="initial"
                         animate="animate" 
-                        className="rounded-2xl border-4 border-neutral-800 p-3">
+                        className="rounded-2xl border-4 border-neutral-800 p-3 hover:border-blue-600">
                             <IoLogoJavascript className="text-4xl text-yellow-400" />
                         </motion.div>
                     </div>

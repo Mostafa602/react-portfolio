@@ -1,8 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
   font-family: "Inter", sans-serif;
+}
+
+
+.fancy-text {
+  -webkit-text-stroke: 1px rgba(183, 183, 225, 0.5);
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }

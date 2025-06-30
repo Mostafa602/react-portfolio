@@ -3,7 +3,7 @@ import { motion } from "motion/react"
 
 export default function Projects() {
     return(
-        <div className="border-b border-neutral-900 pb-4">
+        <div className="border-b border-neutral-900 pb-4" id="projects">
                     <motion.h2 
                     whileInView={{opacity: 1, y: 0}}
                     initial={{opacity: 0, y: -100}}
@@ -11,7 +11,7 @@ export default function Projects() {
                     className="text-center my-20 text-4xl">Projects</motion.h2>
                     <div>
                         {PROJECTS.map((project,index) => (
-                            <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+                            <div key={index} className="mb-8 flex flex-wrap lg:justify-center ">
                                 <motion.div 
                                 whileInView={{opacity: 1, x: 0}}
                                 initial={{opacity: 0, x: -100}}
@@ -29,7 +29,7 @@ export default function Projects() {
                                     </h6>
                                     <p className="mb-4 text-neutral-400">{project.description}</p>
                                     {project.technologies.map((tech,index) => (
-                                        <span key={index} className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-indigo-600">{tech}</span>
+                                        <span key={index} className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-blue-600">{tech}</span>
                                     ))}
                                 </motion.div>
                             </div>
