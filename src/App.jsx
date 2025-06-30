@@ -8,7 +8,7 @@ import Contact from "./components/Contact"
 import Background from "./components/Background"
 export default function App() {
   return (
-    <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-blue-200 selection:text-cyan-900">
+    <div className="overflow-hidden text-neutral-300 antialiased selection:bg-blue-200 selection:text-cyan-900">
       <Background/>
       <div className="container mx-auto px-14">
         <Navbar />
