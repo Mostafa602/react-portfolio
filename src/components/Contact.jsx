@@ -14,7 +14,7 @@ export default function Contact() {
             initial={{opacity: 0, x: -100}}
             transition={{duration: 1}} 
             className="flex justify-center text-center tracking-tighter mt-5">
-                <span><BiLogoGmail className="text-2xl text-indigo-600"/></span>
+                <span><BiLogoGmail className="text-2xl text-blue-600"/></span>
                 <a className="ml-2 " href="mailto:mostafamohamed62005@gmail.com">{CONTACT.email}</a>
             </motion.div>
         </div>
